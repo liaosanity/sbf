@@ -3,13 +3,15 @@ A simple bloom filter, run as an http service.
 
 # Quick start
 1) Building
- * Environment dependence:
-   Centos 7.2
- * Software dependence:
+ * Environment dependence:   
+   Centos 7.2  
+ * Software dependence (install them all to '$(HOME)/opt/'):  
    shs-1.0.0
  * Source compile:
+```
    make
    make package
+```
 2) Deployment (run it on a server like 192.168.1.11, under '/home/test' dir)
  * scp packages/sbf-1.0.0.tgz 192.168.1.11:/tmp
  * run these cmd as bellow to deploy:
