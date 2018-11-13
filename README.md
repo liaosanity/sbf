@@ -5,7 +5,7 @@ A simple bloom filter, run as an http service.
 1) Building
  * Environment dependence:   
    Centos 7.2  
- * Software dependence (install them all to '$(HOME)/opt/'):  
+ * Software dependence (install it to '$(HOME)/opt/'):  
    shs-1.0.0
  * Source compile:
 ```
